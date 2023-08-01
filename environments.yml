@@ -1,0 +1,22 @@
+channels:
+  - anaconda
+  - bioconda
+  - conda-forge
+dependencies:
+ -python=3.11
+ - numpy
+ - psutil
+ - toolz
+ - matplotlib
+ - dill
+ - pandas
+ - partd
+ - bokeh
+ - dask 
+ - kallisto=0.48.0
+ - trim-galore=0.6.10
+ - multiqc=1.14
+ - fastqc=0.12.1
+ - fastq-screen=0.15.3
+ - htslib=1.12
+ - samtools=1.12
